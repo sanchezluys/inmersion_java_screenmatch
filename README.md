@@ -2,7 +2,7 @@
 
 Alura Latam
 
-| Clase | Descripcion de lo desarrollado               | Comentario                                                                                                           |
+| Clase | Descripción de lo desarrollado               | Comentarios                                                                                                          |
 |-------|----------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | #1    | usando sout, imprimir en pantalla            |                                                                                                                      |
 |       | usando datos primitivos int, double          |                                                                                                                      |
@@ -12,10 +12,9 @@ Alura Latam
 |       | uso del if-else                              |                                                                                                                      |
 |       | uso de ciclo for                             |                                                                                                                      |
 |       | uso clase Scanner                            |                                                                                                                      |
-|       | ⚠️*en el uso de double*                        | se pueden presentar errores por el uso del punto o la coma, depende de la configuracion regional el uso del . o la , |
-|       | **Reto 1**: crear el readme                      | cumplido ✅️                                                                                                            |
-|       | **Reto 2**: hacer el ciclo con while             | cumplido ✅️                                                                                                                     |
-|       |                                              |                                                                                                                      |
+|       | ⚠️*en el uso de double*                      | se pueden presentar errores por el uso del punto o la coma, depende de la configuracion regional el uso del . o la , |
+|       | **Reto 1**: crear el readme                  | cumplido ✅️                                                                                                          |
+|       | **Reto 2**: hacer el ciclo con while         | cumplido ✅️                                                                                                          |
 |       |                                              |                                                                                                                      |
 
 Emoticons: ✅❎⚠️

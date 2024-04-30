@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("*********************************************");
         System.out.println("Bienvenido a la inmersion en Java Abril 2024");
-        System.out.println("Profesora: Genesys Rondon");
+        System.out.println("Profesora: Genesys Rondon / Christian Velasco");
         System.out.println("*********************************************");
         // declaracion de variables
         System.out.println("Película Matrix");
