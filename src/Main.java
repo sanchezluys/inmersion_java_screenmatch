@@ -41,12 +41,36 @@ public class Main {
         int iteraciones=3;
         for (int i = 0; i < iteraciones; i++) {
             Scanner teclado = new Scanner(System.in);
-            System.out.println("Ingresa la evalaucion #"+ (i+1) +" que le darias a la pelicula " + nombre);
+            System.out.println("Ingresa la evaluacion #"+ (i+1) +" que le darias a la pelicula " + nombre);
             double notaMatrix = teclado.nextDouble();
             mediaEvaluacionUsuario=mediaEvaluacionUsuario + notaMatrix;
         }
         mediaEvaluacionUsuario=mediaEvaluacionUsuario/iteraciones;
         System.out.println("La media de la pelicula "+ nombre +" calculada por los " +iteraciones + " usuarios, es: " + mediaEvaluacionUsuario);
         //**
+        System.out.println("********************************************");
+        System.out.println("Realizando Reto de Usar While en vez de For");
+        System.out.println("********************************************");
+        //** se inicializan las variables
+        double notaMatrix=0;
+        boolean bandera=true;
+        int iteraccionesWhile=1;
+        mediaEvaluacionUsuario=0;
+        //**
+        Scanner teclado = new Scanner(System.in);
+        while (bandera){
+            System.out.println("Ingresa la evaluacion #"+iteraccionesWhile+", (para salir escribir -1)");
+            notaMatrix = teclado.nextDouble();
+            if(notaMatrix == -1){
+               bandera=false;
+            }
+            else
+            {
+                mediaEvaluacionUsuario=mediaEvaluacionUsuario + notaMatrix;
+                iteraccionesWhile++;
+            }
+        }
+        mediaEvaluacionUsuario=mediaEvaluacionUsuario/iteraccionesWhile;
+        System.out.println("La media de la pelicula "+ nombre +" calculada por los " + (iteraccionesWhile) + " usuarios, es: " + mediaEvaluacionUsuario);
     }
 }

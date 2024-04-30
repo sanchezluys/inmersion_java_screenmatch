@@ -12,8 +12,10 @@ Alura Latam
 |       | uso del if-else                              |                                                                                                                      |
 |       | uso de ciclo for                             |                                                                                                                      |
 |       | uso clase Scanner                            |                                                                                                                      |
-|       | *en el uso de double*                        | se pueden presentar errores por el uso del punto o la coma, depende de la configuracion regional el uso del . o la , |
-|       | **Reto 1**: crear el readme                      |                                                                                                                      |
-|       | **Reto 2**: hacer el ciclo con while             |                                                                                                                      |
+|       | ⚠️*en el uso de double*                        | se pueden presentar errores por el uso del punto o la coma, depende de la configuracion regional el uso del . o la , |
+|       | **Reto 1**: crear el readme                      | cumplido ✅️                                                                                                            |
+|       | **Reto 2**: hacer el ciclo con while             | cumplido ✅️                                                                                                                     |
 |       |                                              |                                                                                                                      |
 |       |                                              |                                                                                                                      |
+
+Emoticons: ✅❎⚠️
