@@ -72,5 +72,6 @@ public class Main {
         mediaEvaluacionUsuario=mediaEvaluacionUsuario/iteraccionesWhile;
         System.out.println("La media de la pelicula "+ nombre +" calculada por los " + (iteraccionesWhile) + " usuarios, es: " + mediaEvaluacionUsuario);
         System.out.println("Listoa para la clase 2");
+        System.out.println("Creando una nueva rama en git, Aula-02");
     }
 }
