@@ -26,10 +26,10 @@
 |       | -- se crea una clase madre llamada titulo                                           |                                                                                                                      |
 |       | Se crea la clase serie                                                              |                                                                                                                      |
 |       | Se usa switch() con un menu                                                         |                                                                                                                      |
-|       | ⚠️**Reto 1**: crear el código para solicitar la serie                               | cumplido ✅️                                                                                                                      |
+|       | ⚠️**Reto 1**: crear el código para solicitar la serie                               | cumplido ✅️                                                                                                          |
 |       | ⚠️**Reto 2**: usar menos código en la serie                                         |                                                                                                                      |
-|       | ⚠️**Reto 3**: crear opcion 3 de calculadora en dias para ver las series y peliculas |                                                                                                                      |
-|       |                                                                                     |                                                                                                                      |
-|       |                                                                                     |                                                                                                                      |
-
+|       | ⚠️**Reto 3**: crear opcion 3 de calculadora en dias para ver las series y peliculas | cumplido ✅️             se usaron variables globales                                                                 |
+|       | -- Se muestra el acumulado en cada ciclo del tiempo necesario                       |                                                                                                                      |
+|       | -- se agrega imagen de resultados en el readme.md                                   |                                                                                                                      |
+![img_1.png](img_1.png)
 Emoticons: ✅❎⚠️

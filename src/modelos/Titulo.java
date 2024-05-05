@@ -9,6 +9,7 @@ public class Titulo {
     private int tiempoDuracionMinutos;
     // creando los setter y getters
 
+
     public String getNombre() {
         return nombre;
     }
