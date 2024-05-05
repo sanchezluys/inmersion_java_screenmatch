@@ -31,5 +31,7 @@
 |       | ⚠️**Reto 3**: crear opcion 3 de calculadora en dias para ver las series y peliculas | cumplido ✅️             se usaron variables globales                                                                 |
 |       | -- Se muestra el acumulado en cada ciclo del tiempo necesario                       |                                                                                                                      |
 |       | -- se agrega imagen de resultados en el readme.md                                   |                                                                                                                      |
+
+----
 ![img_1.png](img_1.png)
-Emoticons: ✅❎⚠️
+
