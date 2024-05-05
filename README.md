@@ -1,7 +1,7 @@
 ![img.png](img.png)
-**Inmersion Java Abril 2024**
-
-Alura Latam
+# Inmersion Java Abril 2024
+## Alura Latam
+## Profesores: Genesys Rondon / Christian Velasco
 
 | Clase | Descripción de lo desarrollado                                                      | Comentarios                                                                                                          |
 |-------|-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
@@ -26,7 +26,7 @@ Alura Latam
 |       | -- se crea una clase madre llamada titulo                                           |                                                                                                                      |
 |       | Se crea la clase serie                                                              |                                                                                                                      |
 |       | Se usa switch() con un menu                                                         |                                                                                                                      |
-|       | ⚠️**Reto 1**: crear el código para solicitar la serie                               |                                                                                                                      |
+|       | ⚠️**Reto 1**: crear el código para solicitar la serie                               | cumplido ✅️                                                                                                                      |
 |       | ⚠️**Reto 2**: usar menos código en la serie                                         |                                                                                                                      |
 |       | ⚠️**Reto 3**: crear opcion 3 de calculadora en dias para ver las series y peliculas |                                                                                                                      |
 |       |                                                                                     |                                                                                                                      |

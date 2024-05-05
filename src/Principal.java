@@ -1,8 +1,10 @@
 import modelos.Pelicula;
 import modelos.Serie;
-
+// 😀😃😎👍👆👤👥👀🎒⛑️👑👓🐰🐷🐽🐻🐔🌎✨⚡⭐🌈☀️🌤️❄️🔥💥🌍🌏🍎
+// 🍏🍓🍸🥃⚽🏀🏈⚾🥎🎾🏐🏉🎱🎯🎲🥁🎹🚗🚕🚒🚐🛩️🚀🛰️✈️🏚️🕌⛪🏛️
+// ⛺🛖⌚📱📲💻🖨️🖱️🖥️💿💾💽📸⏰⏲️⏱️💡🔋🛢️💎🪪🛠️⚒️⚖️⚙️🧻🧺🩸🎈🎁🛒🏷️
+// 📥📤📁📂📔📚📙🧷📍📝✏️⚠️🚸❌⛔📛🚫🛑❗❓‼️⁉️♻️✅✳️❎🔁🔄🔀🇻🇪
 import java.util.Scanner;
-
 public class Principal {
 
     public void muestraMenu(){
@@ -10,11 +12,12 @@ public class Principal {
         Scanner teclado = new Scanner(System.in);
         while (opcion != 9){
             String menu= """
-                    Bienvenido(a) a ScreenMatch
-                    1. Registrar Nueva Pelicula
-                    2. Registrar Nueva Serie
-                    
-                    9. Salir
+                    🖥️ Bienvenido(a) a ScreenMatch 🖥️
+                    1. Registrar Nueva Pelicula 📸
+                    2. Registrar Nueva Serie 🥃
+                    3. Calculadora 📱
+                    ---------------------------
+                    9. Salir ❌
                     """;
             System.out.println(menu);
             opcion= teclado.nextInt();
@@ -45,19 +48,33 @@ public class Principal {
                     int fechaLanzamientoSerie = teclado.nextInt();
                     teclado.nextLine();
                     //
-                    System.out.println("Ingrese Duracion en Minutos  ");
-                    int duracionSerie = teclado.nextInt();
+                    System.out.println("Ingrese Temporadas  ");
+                    int temporadasSerie = teclado.nextInt();
                     teclado.nextLine();
+
+                    //
+                    System.out.println("Ingrese Numero de Episodios por Temporadas  ");
+                    int episodiosTemporadasSerie = teclado.nextInt();
+                    teclado.nextLine();
+                    //
+                    System.out.println("Ingrese Duracion en minutos de cada Epsiodio  ");
+                    int duracionEpisodiosSerie = teclado.nextInt();
+                    teclado.nextLine();
+                    //
                     Serie serie = new Serie();
                     serie.setNombre(nombreSerie);
-
+                    serie.setFechaLanzamiento(fechaLanzamientoSerie);
+                    serie.setTemporadas(temporadasSerie);
+                    serie.setEpisodiosTemporada(episodiosTemporadasSerie);
+                    serie.setDuracionMinutosEpisodio(duracionEpisodiosSerie);
+                    //
                     serie.muestraFichaTecnica();
                     break;
                 case 9:
-                    System.out.println("Finaliza Programa");
+                    System.out.println("\uD83D\uDE00 Finalizando el Programa\nHasta Pronto! ");
                     break;
                 default:
-                    System.out.println("Ha ingresado una opción Invalida\nIntente de nuevo por favor");
+                    System.out.println("⚠\uFE0F Ha ingresado una opción Invalida\nIntente de nuevo por favor");
                     break;
             }
         }
