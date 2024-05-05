@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("*********************************************");
@@ -72,5 +71,6 @@ public class Main {
         }
         mediaEvaluacionUsuario=mediaEvaluacionUsuario/iteraccionesWhile;
         System.out.println("La media de la pelicula "+ nombre +" calculada por los " + (iteraccionesWhile) + " usuarios, es: " + mediaEvaluacionUsuario);
+        System.out.println("Listoa para la clase 2");
     }
 }
