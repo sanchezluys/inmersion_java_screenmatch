@@ -16,5 +16,6 @@ Alura Latam
 |       | **Reto 1**: crear el readme                  | cumplido ✅️                                                                                                          |
 |       | **Reto 2**: hacer el ciclo con while         | cumplido ✅️                                                                                                          |
 |       |                                              |                                                                                                                      |
+|       | Aula 02                                       |                                                                                                                      |
 
 Emoticons: ✅❎⚠️
